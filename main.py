@@ -122,3 +122,17 @@ class Automation(Custom_Errors):
             self.driver.quit()
 
 
+
+#usage example
+
+#initialise of object
+# whatpy = Automation()
+
+#initiated geckodriver
+# whatpy.initiate(Maximise_window=True)
+
+#send message time to be specified
+# whatpy.send_a_message('your phonenumber', message='Hello saurabh', Hour=17, Minute=17, seconds=00)
+
+#remember to quit the driver
+# whatpy.quit()
