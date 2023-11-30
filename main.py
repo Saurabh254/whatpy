@@ -119,6 +119,7 @@ class Automation(Custom_Errors):
         if self.driver is None:
             raise Custom_Errors.DriverNotInitiated("Driver Not found")
         else:
+            # this is used to exit
             self.driver.quit()
 
 
